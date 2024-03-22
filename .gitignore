@@ -1,0 +1,14 @@
+tags
+test.sh
+.luarc.json
+nvim
+# Neovim temporary files and history
+.netrwhist
+neo-tree.nvim.log
+telescope_history
+# Cache files and directories
+lazy-lock.json
+mason/
+# OS generated files
+.DS_Store
+Thumbs.db
