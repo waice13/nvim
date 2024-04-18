@@ -9,7 +9,9 @@ return {
 	config = function()
 		require('neo-tree').setup {
 		    filesystem = {
-			follow_current_file = true, -- Enable following the current file
+			follow_current_file = {
+			    enabled = true, -- Enable following the current file, updated to table format
+			}
 		    },
 		}
 		vim.keymap.set("n", "<leader>bf", ":Neotree buffers reveal float<CR>", {})
