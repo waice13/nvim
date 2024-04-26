@@ -568,6 +568,7 @@ local servers = {
       python = {
         analysis = {
           reportMissingImports = false,
+          reportMissingModuleSource = false,
         },
       },
     },
